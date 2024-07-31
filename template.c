@@ -22,7 +22,7 @@ typedef struct Tnodo
 // DECLARE SUS FUNCIONES AQUI
 Tnodo *crearNodo(char *descripcion, char *categoria, int precio, int stock);
 void crearLista(Tnodo **listaDeProductos, TProducto *listaDeProveedor);
-Tnodo *filtrarPorStock(Tnodo *listaDeProductos);
+Tnodo *filtrarPorStock(Tnodo *listaDeProductos, int stock);
 
 int main()
 {
@@ -116,6 +116,17 @@ void crearLista(Tnodo **listaDeProductos, TProducto *listaDeProveedor){
     }
 }
 
-Tnodo *filtrarPorStock(Tnodo *listaDeProductos){
+Tnodo *filtrarPorStock(Tnodo *listaDeProductos, int stock){
+    Tnodo *aux;
+    aux = listaDeProductos;
+    while (aux)
+    {
+        if (aux->dato.Stock <= stock)
+        {
+            Tnodo *aux2;
+            
+        }
+        
+    }
     
 }
