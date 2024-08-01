@@ -1,8 +1,8 @@
 # TP5 - Auto-Evaluativo de Listas Enlazadas
 
 ## Enunciado
-1. Utilice el puntero listaDeProductos para crear una lista y *copie* todos los elementos del array ProductosDeProveedor1 a la lista. La inserción del nodo tiene que ser al inicio de la lista.
-2. Construya una funcion que *copie* en la lista productosFiltradosPorPrecio todos los productos de la lista listaDeProductos cuyo precio sea menor al precio ingresado por consola
+1. Utilice el puntero listaDeProductos para crear una lista y *copie* todos los elementos del array ProductosDeProveedor1 a la lista. La inserción del nodo tiene que ser al inicio de la lista. hecho
+2. Construya una funcion que *copie* en la lista productosFiltradosPorPrecio todos los productos de la lista listaDeProductos cuyo precio sea menor al precio ingresado por consola. hecho
 3. Construya una funcion que devuelva la *cantidad* de productos de la lista listaDeProductos cuyo stock sea igual a 0 y guardelo en la variable cantidadSinStock.
 4. Construya una funcion que *quite* todos los productos de listaProductos cuyo stock sea mayor a un valor ingresado por consola y los *mueva* a una nueva lista productosFiltradoPorStock. 
 5. Libere todas las listas utilizadas.
